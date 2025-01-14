@@ -14,3 +14,10 @@
     <li><strong>Backend</strong>: Node.js, Express.js</li>
     <li><strong>Database</strong>: MongoDB</li>
 </ul>
+<h2>Project Structure</h2>
+<ul>
+    <li><strong>one.html</strong>: User interface for the main page.</li>
+    <li><strong>two.html</strong>: User interface for the secondary page.</li>
+    <li><strong>info.js</strong>: Client-side JavaScript code.</li>
+    <li><strong>server1.js</strong>: Server-side backend code.</li>
+</ul>
