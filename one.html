@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student details</title>
+    <style>
+        .container{
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        label{
+            margin-top: 10px;
+        }
+        input{
+            padding: 5px;
+            margin-top: 5px;
+        }
+        input[type="submit"]{
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            &:hover {
+                background-color: #444;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Details</h1>
+        <form action="/post" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="roll">Roll No:</label>
+            <input type="text" name="roll" id="roll" required>
+            <label for="class">Class:</label>
+            <input type="text" name="cls" id="class" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
