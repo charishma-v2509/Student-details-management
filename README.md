@@ -5,7 +5,7 @@
 <h2>Features</h2>
 <ul>
     <li><strong>User Authentication</strong>: Secure login system for administrators.</li>
-    <li><strong>Responsive Design</strong>: Mobile-friendly interface.</li>
+    <li><strong>Responsive Design</strong>: User-friendly interface.</li>
 </ul>
 
 <h2>Technologies Used</h2>
