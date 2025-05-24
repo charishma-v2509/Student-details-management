@@ -1,4 +1,4 @@
-# Student-details-management
+# Student-details-management System
 <h2>Overview</h2>
 <p>The Student Details Management Website is a web application designed to manage student information efficiently. It allows administrators to add and view student records. This project is built using modern web technologies and follows a structured and modular approach.</p>
 
